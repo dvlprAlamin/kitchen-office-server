@@ -58,21 +58,13 @@ client.connect(err => {
                 res.send(result.insertedCount > 0);
             })
     })
-    app.get('/userinfo', (req, res) => {
-        // const email = req.query
-        usersCollection.find(req.query)
-            .toArray((err, documents) => {
-                res.send(documents)
-            })
-    })
-    //   app.delete('/delete/:id', (req,res)=> {
-    //     juiceCollection.findOneAndDelete({_id:ObjectId(req.params.id)})
-    //     .then(response => {
-    //       res.send(response.ok > 0);
-    //     })
-    //   })
-
-
+    // app.get('/userinfo', (req, res) => {
+    //     // const email = req.query
+    //     usersCollection.find(req.query)
+    //         .toArray((err, documents) => {
+    //             res.send(documents)
+    //         })
+    // })
 });
 
 const port = 4000;
