@@ -22,4 +22,4 @@ Welcome to Kitchen Office. This is a reataurant website. This repository contain
 - Heroku
 
 
-You can see server side code in [Kitchen Office Client](https://github.com/dvlprAlamin/kitchen-office)
+You can see client side code in [Kitchen Office Client](https://github.com/dvlprAlamin/kitchen-office)
